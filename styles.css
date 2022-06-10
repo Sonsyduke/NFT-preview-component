@@ -161,10 +161,19 @@ body {
   border-radius: 10px;
 }
 
+.main-img {
+  /* background-color: red; */
+}
+
 .main-heading {
   color: var(--white);
   font-weight: 600;
   margin: 20px 0;
+}
+
+.main-heading:hover {
+  color: var(--cyan);
+  cursor: pointer;
 }
 
 .desc {
@@ -214,6 +223,11 @@ body {
 
 span {
   color: var(--white);
+}
+
+span:hover {
+  cursor: pointer;
+  color: var(--cyan);
 }
 
 .the-creator {
